@@ -1,0 +1,100 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}.info
+{
+    background-color: black;
+    color: white;
+    padding:10px;
+    
+}
+li,h1,ul{
+    color:azure;
+    display: inline;
+
+}
+
+h1{
+padding-right: 300px;
+}
+li{
+    padding: 10px;
+    color:grey;
+    
+}
+li:hover{
+    color:white;
+}
+.ram{
+    margin-top: 50px;
+    margin-left: 200px;
+    padding-left: 100px;
+    
+    
+}
+input{
+    width: 900px;
+    height: 40px;
+    padding-left:20px;
+}
+.outerbox{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.box{
+  
+    width:225px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    margin:5px;
+   
+}
+.box:hover{
+    background-color:violet;
+    color: white;
+}
+
+
+.about{
+    text-align: center;
+    margin:20px;
+    padding-left: 250px;
+}
+.para{
+    text-align: center;
+    padding:10px;
+    margin:30px;
+}
+.end{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding:20px;
+    padding-bottom: 30px;
+}
+.info {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav li, .info h1 {
+    display: inline;
+    color: grey;
+    padding: 10px;
+}
+
+.nav li:hover {
+    color: white;
+}
+
